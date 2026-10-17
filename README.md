@@ -1,14 +1,16 @@
-# JupyterProject - RDKit Primer
+# Anima Palu 💊 - Visualisation Antipaludéens
 
-Projet d'apprentissage de la chimie-informatique avec RDKit.
+Application interactive qui permet de visualiser en 3D et d'analyser des molécules contre le paludisme.
 
-## 📚 Contenu
-- `rdkit_primer_01.ipynb` : Notebook d'introduction à RDKit - bases des molécules, SMILES, visualisation
-- `SRC/` : Code source et utilitaires
-- `test_rdkit.py` : Tests de l'environnement RDKit
+### ✨ Features
+- Visualisation 3D interactive (Chloroquine, Amodiaquine, Quinine, Artemether)
+- Calcul de propriétés : Poids moléculaire, LogP, Formule brute
+- Interface simple avec Streamlit
 
-## 🛠️ Installation
+### 🛠️ Tech Stack
+Python, RDKit, Streamlit, py3Dmol, Pandas
 
+### 🚀 Lancer en local
 ```bash
-conda create -n rdkit-env -c conda-forge rdkit
-conda activate rdkit-env
+pip install -r requirements.txt
+streamlit run app.py
