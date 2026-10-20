@@ -1,4 +1,5 @@
 streamlit
 rdkit-pypi
-py3Dmol
+numpy
 pandas
+pillow
