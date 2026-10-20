@@ -3,4 +3,3 @@ pandas
 pillow
 rdkit
 py3Dmol
-stmol
