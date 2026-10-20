@@ -1,5 +1,4 @@
 streamlit
 pandas
-numpy
 pillow
-rdkit-pypi==2024.3.6
+rdkit
