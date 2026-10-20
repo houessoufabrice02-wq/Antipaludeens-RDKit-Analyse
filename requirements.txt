@@ -1,5 +1,5 @@
-streamlit
-rdkit-pypi
-numpy
+streamlit==1.39.0
 pandas
+numpy==1.26.4
 pillow
+rdkit-pypi==2022.9.5
